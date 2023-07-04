@@ -16,12 +16,11 @@
 if ! command -v docker &> /dev/null; then
     echo "Docker is not installed. Installing Docker..."
     # Install Docker
-    curl -fsSL https://get.docker.com -o get-docker.sh
-    sudo sh get-docker.sh
+    sudo apt update
+    sudo apt install docker.io -y
     sudo usermod -aG docker $USER
     sudo systemctl enable docker
     sudo systemctl start docker
-    rm get-docker.sh
     echo "Docker installed successfully."
 fi
 
