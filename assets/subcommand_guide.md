@@ -12,7 +12,7 @@
 
    - For example - "./wordpress_script create example.com"
 
-3. If you have already created wordpress site and want to enable or disable it then subcommands available are, enable, disable and delete
+3. If you have already created wordpress site and want to eanle it or disable then subcommands available are, enable, disable and delete
 
    - Enable the site - "./wordpress_script.sh toggle enable"
    - Disable the site - "./wordpress_script.sh toggle disable"
