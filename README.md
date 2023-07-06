@@ -62,7 +62,7 @@ To create a WordPress site, provide the site name as a command-line argument. Re
 
 - This command will set up a LEMP stack inside Docker containers and create a new WordPress site using the latest version.
 
-- For any reason if docker daemon denies permission, logout and login again then the script again.
+- For any reason if docker daemon denies permission, logout and login again then run the script again.
 
 - After successful creation of website it will prompt you to open example.com in browser, similar to this.
 
